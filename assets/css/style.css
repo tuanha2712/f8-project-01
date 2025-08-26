@@ -169,12 +169,25 @@ a {
 }
 
 .Client .img {
-     margin-top: 96px;
+     margin-top: 70px;
      display: flex;
      justify-content: space-between;
      align-items: center;
 }
 
+.Client .img a {
+     display: flex;
+     align-items: center;
+     padding: 0 42px;
+     background-color: #fff;
+     border-radius: 12px;
+     height: 90px;
+}
+
+.Client .img a:hover {
+          box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
+
+}
 .guides {
      margin-top: 40px;
      padding: 79px 0;
