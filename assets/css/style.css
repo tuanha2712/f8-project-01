@@ -57,7 +57,17 @@ a {
     overflow: hidden;
 }
 /* header */
-.header {
+
+.fix-header {
+     background-color: #e6f0ff;
+     padding-top: 26px;
+     position: sticky;
+     top: -26px;
+     z-index: 1;
+}
+.hero-wrap {
+     display: flex;
+     flex-direction: column;
     background-color: #e6f0ff;
     height: 100vh;
     position: relative;
@@ -66,7 +76,8 @@ a {
 .nav-bar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 
 .nav-bar ul {
